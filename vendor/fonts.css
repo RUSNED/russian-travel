@@ -16,3 +16,10 @@
   font-family: "Inter-SemiBold";
   font-weight: 600;
 }
+@font-face {
+  src: url(../vendor/Inter-ExtraBold.woff2) format("woff2"),
+    url(../vendor/Inter-ExtraBold.woff) format("woff");
+  font-family: "Inter-ExtraBold";
+  font-weight: 900;
+}
+
