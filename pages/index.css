@@ -30,3 +30,38 @@ div {
   border: 2px red solid;
 }
 
+.footer {
+  max-width: 1184px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__link {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 18px;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
+}
+
+.footer__link:first-child {
+  padding-left: 0px;
+}
+
+.footer__copyrite {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #ffffff;
+}
+.footer__links {
+  margin: 0;
+}
