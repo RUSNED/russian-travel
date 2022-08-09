@@ -8,93 +8,25 @@
 @import url(../blocks/header/__logo-link/header__logo-link.css);
 @import url(../blocks/header/__logo-link/_active/header__logo-link_active.css);
 
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
 div {
   border: 2px red solid;
 }
-.lead {
-  width: 984px;
-  margin-left: 148px;
-  margin-right: 148px;
-  align-items: center;
-}
 
-.lead__title {
-  width: 720px;
-  font-family: "Inter-ExtraBold";
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 100px;
-  text-align: center;
-  color: #ffffff;
-  margin: 0 auto;
-  padding-top: 56px;
-}
-.lead__subtitle {
-  width: 640px;
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  color: #ffffff;
-  margin: 0 auto;
-  padding-top: 32px;
-}
-
-.lead__image {
-  width: 984px;
-  padding-top: 64px;
-}
-
-.lead__caption {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin: 0;
-}
-
-.intro {
-  width: 690px;
-  margin-left: 148px;
-  margin-right: 442px;
-}
-
-.intro__title {
-  font-family: "Inter-ExtraBold";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-  color: #ffffff;
-  margin: 0;
-  padding-top: 92px;
-}
-
-.intro__text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-  color: #ffffff;
-  margin: 0;
-  padding-top: 40px;
-}
-
-.intro__list {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
-  color: #ffffff;
-  list-style-type:none;
-  padding-left: 0;
-  padding-top: 33px;
-  margin: 0;
-}
