@@ -26,42 +26,23 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyrite/footer__copyrite.css);
+
 div {
   border: 2px red solid;
 }
 
-.footer {
-  max-width: 1184px;
+.places {
+  max-width: 984px;
+  padding-top: 92px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
 }
-.footer__link {
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
-  text-decoration: none;
-  padding-left: 18px;
-}
-
-.footer__link:hover {
-  opacity: 0.5;
-}
-
-.footer__link:first-child {
-  padding-left: 0px;
-}
-
-.footer__copyrite {
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: right;
-  color: #ffffff;
-}
-.footer__links {
-  margin: 0;
+.place {
+  display: grid;
+  grid-template-columns: 460px auto;
+  grid-gap: 48px;
 }

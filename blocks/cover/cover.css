@@ -4,7 +4,9 @@
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 92px 48px;
+  margin-top: 92px;
+  margin-left: 48px;
+  margin-right: 48px;
   display: flex;
   justify-content: center;
   flex-direction: column;
