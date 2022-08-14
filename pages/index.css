@@ -26,7 +26,6 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
@@ -45,4 +44,71 @@ div {
   display: grid;
   grid-template-columns: 460px auto;
   grid-gap: 48px;
+  padding-top: 80px;
+}
+
+.place:first-child {
+  padding-top:0px;
+}
+
+.place__title {
+  font-family: 'Inter-ExtraBold';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #ffffff;
+  margin: 0;
+}
+.place__image {
+  max-width: 460px;
+  background-position: cover;
+}
+.place__url {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.place__url-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+  margin: 0;
+}
+.place__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  padding-top: 12px;
+}
+.place__link:hover {
+  opacity: 0.5;
+}
+
+.place__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.place__paragraph {
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 26px;
+}
+.place__paragraph:first-child {
+  padding-top: 0px;
 }
