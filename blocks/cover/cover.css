@@ -1,14 +1,12 @@
 .cover {
-  max-width: 1184px;
-  height: 740px;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: 92px;
-  margin-left: 48px;
-  margin-right: 48px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  
 }
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    max-width: 100%;
+    margin: 92px 0;
+  }
+}
+  
