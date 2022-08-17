@@ -8,3 +8,15 @@
   color: #aaaaaa;
   margin: 0;
 }
+
+@media screen and (min-width: 1024px) {
+  .place__url-heading {
+    line-height: 170%;
+  }
+}
+@media screen and (min-width: 320px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

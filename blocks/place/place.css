@@ -6,5 +6,38 @@
 }
 
 .place:first-child {
-  padding-top:0px;
+  padding-top: 0px;
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 460px auto;
+    grid-gap: 48px;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    padding-bottom: 80px;
+    grid-template-columns: 440px auto;
+    grid-gap: 48px;
+    padding-top: 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .place {
+    padding-bottom: 73px;
+    grid-template-columns: 340px auto;
+    grid-gap: 48px;
+    padding-top: 28px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .place {
+    padding-bottom: 50px;
+    grid-gap: 32px;
+    grid-template-columns: 1fr;
+  }
 }
