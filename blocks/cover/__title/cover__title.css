@@ -1,6 +1,7 @@
 .cover__title {
-  margin: 0;
+  margin: 0 auto 32px;
   position: relative;
+  padding: 0;
   max-width: 560px;
   font-family: 'Inter-ExtraBold';
   font-size: 72px;
@@ -10,4 +11,13 @@
   text-decoration: none;
   z-index: 1;
   justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    min-width: 288px;
+    margin: 0 auto 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
