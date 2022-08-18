@@ -44,8 +44,3 @@
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-
-
-div {
-  border: 2px red solid;
-}
